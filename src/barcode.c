@@ -16,8 +16,8 @@ typedef struct Barcode {
 
 // Lazy.
 Barcode barcodes[] = {
-	{"The Castle", "0000", CODE39},
-	{"Test", "TEST12", CODE128},
+	{"Scanner Code39", "Scanner", CODE39},
+	{"Scanner Code128", "Scanner", CODE128},
 };
 
 void display() {
