@@ -7,7 +7,7 @@ BitmapLayer *barcode;
 TextLayer *label;
 
 int currentBarcode = 0;
-int nBarcodes = 2;
+int nBarcodes = 4;
 typedef struct Barcode {
 	char* label;
 	char* code;
@@ -18,6 +18,8 @@ typedef struct Barcode {
 Barcode barcodes[] = {
 	{"Scanner", "SCANNER", CODE39},
 	{"Scanner", "SCANNER", CODE128},
+	{"Jason", "JASON", CODE128},
+	{"YES", "YES", CODE128},
 };
 
 void display() {
